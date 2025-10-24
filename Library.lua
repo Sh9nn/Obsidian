@@ -6910,7 +6910,7 @@ function Library:CreateWindow(WindowInfo)
                     Parent = Background,
                 })
                 New("UICorner", {
-                    CornerRadius = UDim.new(5, WindowInfo.CornerRadius - 1),
+                    CornerRadius = UDim.new(5, WindowInfo.CornerRadius - 5),
                     Parent = TabboxHolder,
                 })
 
