@@ -6584,8 +6584,8 @@ function Library:CreateWindow(WindowInfo)
             --// Warning Box \\--
             WarningBox = New("Frame", {
                 AutomaticSize = Enum.AutomaticSize.Y,
-                BackgroundColor3 = Color3.fromRGB(127, 0, 0),
-                BorderColor3 = Color3.fromRGB(255, 50, 50),
+                BackgroundColor3 = Color3.fromRGB(50, 130, 205),
+                BorderColor3 = Color3.fromRGB(40, 105, 160),
                 BorderMode = Enum.BorderMode.Inset,
                 BorderSizePixel = 1,
                 Position = UDim2.fromOffset(0, 6),
@@ -6616,14 +6616,14 @@ function Library:CreateWindow(WindowInfo)
                 BackgroundTransparency = 1,
                 Size = UDim2.new(1, -4, 0, 14),
                 Text = "",
-                TextColor3 = Color3.fromRGB(255, 50, 50),
+                TextColor3 = Color3.fromRGB(255, 255, 255),
                 TextSize = 14,
                 TextXAlignment = Enum.TextXAlignment.Left,
                 Parent = WarningBoxScrollingFrame,
             })
             WarningStroke = New("UIStroke", {
                 ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual,
-                Color = Color3.fromRGB(169, 0, 0),
+                Color = Color3.fromRGB(110, 110, 110),
                 LineJoinMode = Enum.LineJoinMode.Miter,
                 Parent = WarningTitle,
             })
