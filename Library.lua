@@ -6623,7 +6623,7 @@ function Library:CreateWindow(WindowInfo)
             })
             WarningStroke = New("UIStroke", {
                 ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual,
-                Color = Color3.fromRGB(110, 110, 110),
+                Color = Color3.fromRGB(255, 255, 255),
                 LineJoinMode = Enum.LineJoinMode.Miter,
                 Parent = WarningTitle,
             })
@@ -6690,7 +6690,7 @@ function Library:CreateWindow(WindowInfo)
             WarningBox.BackgroundColor3 = Tab.WarningBox.IsNormal == true and Library.Scheme.BackgroundColor
                 or Color3.fromRGB(50, 130, 205)
             WarningBox.BorderColor3 = Tab.WarningBox.IsNormal == true and Library.Scheme.OutlineColor
-                or Color3.fromRGB(110, 110, 110)
+                or Color3.fromRGB(255, 255, 255)
             WarningTitle.TextColor3 = Tab.WarningBox.IsNormal == true and Library.Scheme.FontColor
                 or Color3.fromRGB(255, 255, 255)
             WarningStroke.Color = Tab.WarningBox.IsNormal == true and Library.Scheme.OutlineColor
@@ -6715,7 +6715,7 @@ function Library:CreateWindow(WindowInfo)
             end
 
             Library.Registry[WarningTitle].TextColor3 = function()
-                return Tab.WarningBox.IsNormal == true and Library.Scheme.FontColor or Color3.fromRGB(110, 110, 110)
+                return Tab.WarningBox.IsNormal == true and Library.Scheme.FontColor or Color3.fromRGB(255, 255, 255)
             end
 
             Library.Registry[WarningStroke].Color = function()
