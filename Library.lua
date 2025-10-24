@@ -5527,7 +5527,7 @@ function Library:Notify(...)
         Parent = Background,
     })
     New("UICorner", {
-        CornerRadius = UDim.new(0, Library.CornerRadius - 1),
+        CornerRadius = UDim.new(5, Library.CornerRadius - 1),
         Parent = Holder,
     })
     New("UIListLayout", {
